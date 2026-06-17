@@ -1,0 +1,41 @@
+.navbar {
+  background: #2563eb;
+  padding: 20px 50px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: white;
+  margin: 0;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  color: #dbeafe;
+}
+.navbar {
+  transition: all 0.3s ease;
+}
+
+.dark .navbar {
+  background: #1e3a8a;
+}
+
+.dark .nav-links a,
+.dark .logo {
+  color: white;
+}

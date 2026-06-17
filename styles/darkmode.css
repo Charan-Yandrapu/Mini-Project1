@@ -1,0 +1,62 @@
+.app {
+  min-height: 100vh;
+  background: #f4f7fc;
+  color: #111827;
+}
+
+.main-content {
+  padding: 30px;
+}
+
+/* DARK MODE */
+
+.dark {
+  background: #111827;
+  color: white;
+}
+
+.dark .card,
+.dark .form,
+.dark table {
+  background: #1f2937;
+  color: white;
+}
+
+.dark th {
+  background: #2563eb;
+}
+
+.dark td {
+  border-color: #374151;
+}
+
+.dark input,
+.dark select {
+  background: #374151;
+  color: white;
+  border: 1px solid #6b7280;
+}
+
+.dark input::placeholder {
+  color: #d1d5db;
+}
+
+.dark button {
+  color: white;
+}
+
+/* Toggle Button */
+
+.theme-btn {
+  padding: 10px 20px;
+  border: none;
+  background: #2563eb;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.theme-btn:hover {
+  background: #1d4ed8;
+}
